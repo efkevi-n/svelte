@@ -51,4 +51,6 @@ quox(obj);
 
 ...won't trigger reactivity on `obj.foo.bar`, unless you follow it up with `obj = obj`.
 
+numbers.reduce((t, n) => t + n, 0); tells the computer to take the array of numbers and add each one to the total after setting the initial total to 0. At the conclusion, the variable sum will have the total of all the numbers in the array.
+
 A simple rule of thumb: the updated variable must directly appear on the left hand side of the assignment.
